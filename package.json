@@ -5,6 +5,7 @@
   "scripts": {
     "start": "node main.js",
     "lint": "standard",
+    "test": "ava",
     "compose:up": "docker-compose up"
   },
   "dependencies": {
@@ -17,6 +18,8 @@
     "node": ">=6"
   },
   "devDependencies": {
+    "ava": "^0.18.2",
+    "sinon": "^1.17.7",
     "standard": "^9.0.0"
   }
 }
